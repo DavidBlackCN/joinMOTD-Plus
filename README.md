@@ -26,43 +26,43 @@
 
 ```json
 	{
-  "main_server_name": "Survival Server",	//服务器名称
-  "server_name": "Survival Server",	//子服名称
-  "start_day": null,	//开服日期
-  "daycount_plugin_ids": [
-    "mcd_daycount",
-    "day_count_reforged",
-    "daycount_nbt"
-  ],
-  "custom_text": "记得补充这里的自定义文案",	//自定义文本
-  "hitokoto_api": "https://v1.hitokoto.cn/?encode=text",	//一言API
-  "location_api": "https://api.ip.sb/geoip/{ip}",	//IP属地查询API
-  "http_timeout": 2.5,	//超时
-  "random_text_fallback": "欢迎回来，愿你有不错的一天",	//随机语录空值
-  "unknown_ip": "Unknown",
-  "unknown_location": "Unknown",
-  "unknown_hitokoto": "今天也要元气满满",
-  "pass_day_for_new_player": 0,	//新玩家显示据上次加入过0天
-  "permission_motd": 0,		//!!motd权限
-  "permission_reload": 3,	//!!reload权限
-  "permission_server": 0,	//!!server权限
-  "server_list": [
-    "survival",
-    "lobby",
-    {
-      "name": "creative1",
-      "display": "创造服1",
-      "description": "CMP Server#1",
-      "category": "CMP"
-    },
-    {
-      "name": "creative2",
-      "display": "创造服2",
-      "description": "CMP Server#2",
-      "category": "CMP"
-    }
-  ]
-}
+    "main_server_name": "Survival Server",	//服务器名称
+    "server_name": "Survival Server",	//子服名称
+    "start_day": null,	//开服日期
+    "daycount_plugin_ids": [
+      "mcd_daycount",
+      "day_count_reforged",
+      "daycount_nbt"
+    ],
+    "custom_text": "记得补充这里的自定义文案",	//自定义文本
+    "hitokoto_api": "https://v1.hitokoto.cn/?encode=text",	//一言API
+    "location_api": "https://api.ip.sb/geoip/{ip}",	//IP属地查询API
+    "http_timeout": 2.5,	//超时
+    "random_text_fallback": "欢迎回来，愿你有不错的一天",	//随机语录空值
+    "unknown_ip": "Unknown",
+    "unknown_location": "Unknown",
+    "unknown_hitokoto": "今天也要元气满满",
+    "pass_day_for_new_player": 0,	//新玩家显示据上次加入过0天
+    "permission_motd": 0,		//!!motd权限
+    "permission_reload": 3,	//!!reload权限
+    "permission_server": 0,	//!!server权限
+    "server_list": [
+      "survival",
+      "lobby",
+      {
+        "name": "creative1",
+        "display": "创造服1",
+        "description": "CMP Server#1",
+        "category": "CMP"
+      },
+      {
+        "name": "creative2",
+        "display": "创造服2",
+        "description": "CMP Server#2",
+        "category": "CMP"
+      }
+    ]
+  }
 ```
 
 如果配置文件中指定了 `start_day`（格式：`%Y-%m-%d`，如 `2026-04-01`），则将使用 `start_day` 计算开服时间，否则将尝试导入 daycount 插件进行开服时间获取
