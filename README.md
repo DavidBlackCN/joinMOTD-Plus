@@ -1,8 +1,7 @@
 ﻿joinMOTD-Plus
 -------------
 
-一个 MCDReforged 插件，基于[joinMOTD](https://github.com/TISUnion/joinMOTD)
-玩家加入服务器时会收到欢迎 MOTD。
+一个 MCDReforged 插件，基于[joinMOTD](https://github.com/TISUnion/joinMOTD)，当玩家加入服务器时会收到欢迎 MOTD。
 
 ## 要求
 
