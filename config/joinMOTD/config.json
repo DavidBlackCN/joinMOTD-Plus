@@ -1,0 +1,38 @@
+﻿{
+  "main_server_name": "Survival Server",
+  "server_name": "Survival Server",
+  "start_day": null,
+  "daycount_plugin_ids": [
+    "mcd_daycount",
+    "day_count_reforged",
+    "daycount_nbt"
+  ],
+  "custom_text": "记得补充这里的自定义文案",
+  "hitokoto_api": "https://v1.hitokoto.cn/?encode=text",
+  "location_api": "https://api.ip.sb/geoip/{ip}",
+  "http_timeout": 2.5,
+  "random_text_fallback": "欢迎回来，愿你有不错的一天",
+  "unknown_ip": "Unknown",
+  "unknown_location": "Unknown",
+  "unknown_hitokoto": "今天也要元气满满",
+  "pass_day_for_new_player": 0,
+  "permission_motd": 0,
+  "permission_reload": 3,
+  "permission_server": 0,
+  "server_list": [
+    "survival",
+    "lobby",
+    {
+      "name": "creative1",
+      "display": "创造服1",
+      "description": "CMP Server#1",
+      "category": "CMP"
+    },
+    {
+      "name": "creative2",
+      "display": "创造服2",
+      "description": "CMP Server#2",
+      "category": "CMP"
+    }
+  ]
+}

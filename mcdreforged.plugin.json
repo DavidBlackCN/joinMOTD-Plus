@@ -1,16 +1,18 @@
 {
-	"id": "join_motd",
-	"version": "1.4.0",
-	"name": "Join MOTD",
+	"id": "join_motd_plus",
+	"version": "1.0.0",
+	"name": "Join MOTD Plus",
 	"description": {
-		"en_us": "Send player a MOTD when he joins",
-		"zh_cn": "当玩家加入游戏时向其发送欢迎信息"
+		"en_us": "Send player a MOTD when he joins，based on joinMOTD",
+		"zh_cn": "当玩家加入游戏时向其发送欢迎信息，基于 joinMOTD 插件"
 	},
 	"author": [
-		"Fallen_Breath"
+		"Fallen_Breath",
+		"DavidBlackCN"
 	],
-	"link": "https://github.com/TISUnion/joinMOTD",
+	"link": "https://github.com/DavidBlackCN/joinMOTD-Plus",
     "dependencies": {
-        "mcdreforged": ">=2.9.0"
+        "mcdreforged": ">=2.9.0",
+        "player_ip_logger": ">=1.2.1"
     }
 }
